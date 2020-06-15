@@ -13,13 +13,13 @@ var name = prompt("Qual'è il tuo nome?");
 
 // ** CHIEDERE ALL'UTENTE IL SUO COGNOME **
 
-var familyName = prompt("E invece il tuo cognome?")
+var familyName = prompt("E invece il tuo cognome?");
 
 
 // ** CHIEDERE IL COLORE PREFERITO **
 
-var colour = prompt("E per quanto riguarda il tuo colore preferito?")
+var colour = prompt("E per quanto riguarda il tuo colore preferito?");
 
 // ** RISULTATO FINALE: **
 
-document.getElementById('welcome').innerHTML = name+familyName+colour+19
+document.getElementById('password').innerHTML = "La tua splendida password:" + name+familyName+colour+19;
